@@ -9,14 +9,14 @@ The ArXiv LaTeX Extractor is a Python tool designed to download and flatten LaTe
 To install the arXiv LaTeX Extractor, clone this repository and run the installation using pip. Ensure you have Python 3.x installed on your machine.
 
 ```bash
-git clone https://github.com/yourusername/arxiv_latex_extractor.git
+git clone https://github.com/taesiri/arxiv_latex_extractor
 cd arxiv_latex_extractor
 pip install .
 ```
 
 ## Usage
 
-To use the arXiv LaTeX Extractor, import the `get_paper_content` function from the package and pass the arXiv ID of the paper you want to download and flatten:
+To use the ArXiv LaTeX Extractor, import the `get_paper_content` function from the package and pass the ArXiv ID of the paper you want to download and flatten:
 
 ```python
 from arxiv_latex_extractor import get_paper_content
